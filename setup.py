@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
 setup(
-  name = 'diffuser',
+  name = 'lh_diffuser',
   packages = find_packages(),
 )
