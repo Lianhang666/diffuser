@@ -1,4 +1,4 @@
-name: diffuser
+name: lh_diffuser
 channels:
 - defaults
 - conda-forge
