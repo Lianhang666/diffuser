@@ -3,7 +3,7 @@ import pdb
 import diffuser.sampling as sampling
 import diffuser.utils as utils
 
-
+print('imported utils')
 #-----------------------------------------------------------------------------#
 #----------------------------------- setup -----------------------------------#
 #-----------------------------------------------------------------------------#
@@ -13,6 +13,8 @@ class Parser(utils.Parser):
     config: str = 'config.locomotion'
 
 args = Parser().parse_args('plan')
+print('args is ok')
+print(args)
 
 
 #-----------------------------------------------------------------------------#
